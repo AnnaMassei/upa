@@ -37,7 +37,7 @@ nav a{
     text-decoration: none;
     color:var(--primary-color);
     margin: 0 2rem 1rem 0rem;
-    font-size: 1.2re,;
+    font-size: 1.2rem;
 }
 
 nav a:hover{
@@ -45,6 +45,22 @@ nav a:hover{
     transform: scale(0.90);
     transition: transform 0.1s;
 
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-contaier__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--bg-color) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
 footer{
